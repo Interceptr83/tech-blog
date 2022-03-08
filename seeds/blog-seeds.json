@@ -1,8 +1,8 @@
   [
   {
     "id": "1",
-    "post_title": "Tester Seed Title",
-    "post_contents": "Tester seed post contents",
+    "post_title": "Test Title",
+    "post_contents": "This is a test of the emergency broadcast system",
     "user_id": "1"
   }
 ]

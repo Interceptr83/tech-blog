@@ -1,0 +1,46 @@
+{{!-- <div class="d-flex row justify-content-center text-center">
+  <div class="rounded col-7">
+    <div class="card">
+      <div class="card-header">{{post_title}}
+      </div>
+      <div class="card-body">
+        <div class="card-title">Posted by:
+          {{user.name}}
+          on
+          {{format_date date_created}}
+        </div>
+        <p class="card-text">
+          {{post_contents}}
+        </p>
+      </div>
+    </div>
+  </div>
+
+  {{! Display comments for post }}
+  {{#if comments}}
+    <div class="d-flex row justify-content-center py-4">
+      <h3>Comments about Post</h3>
+      {{#each comments as |comment|}}
+        <div class="rounded col-7">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title">
+                {{comment.comment}}
+              </div>
+            </div>
+          </div>
+        </div>
+      {{/each}}
+    </div>
+  {{/if}}
+
+  {{! COMMENT }}
+  <div class="rounded col-7 py-5">
+    <form class="add-comment-form">
+      <label for="comment">Comment:</label>
+      <input type="text" class="form-control" name="comment" id="comment" />
+      <button class="buttons add-comment-btn" id="{{id}}">Add Comment</button>
+    </form>
+  </div>
+ 
+<script src="/js/blog.js"></script> --}}

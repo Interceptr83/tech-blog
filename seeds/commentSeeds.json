@@ -1,11 +1,11 @@
 [
     {
-      "comment": "Hello Comment World",
+      "comment": "Why hello there",
       "blog_id": "1",
       "user_id": "1"
     },
     {
-      "comment": "Great post!",
+      "comment": "General Kenobi!",
       "blog_id": "1",
       "user_id": "2"
     }
