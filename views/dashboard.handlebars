@@ -1,0 +1,38 @@
+<div class="d-flex row justify-content-center text-center">
+  <h4>My Dashboard </h4>
+  {{#each blogs as |blog|}}
+    <div class="rounded col-7">
+      <div class="card">
+        <div class="card-header">{{blog.post_title}}
+        </div>
+        <div class="card-body">
+          <div class="card-title">Posted at
+            {{format_date blog.date_created}}
+          </div>
+          <p class="card-text">
+            {{blog.post_contents}}
+          </p>
+        </div>
+      </div>
+      <button class="delButton del-btn" id="{{id}}">Delete</button>
+    </div>
+    
+      {{! UPDATE }}
+  <div class="rounded col-6 py-2 card">
+    <form class="edit-blog-form">
+      <div class="py-2">
+        <label for="post_title">New Title:</label>
+        <input name="post_title" class="form-control" type="text" placeholder={{blog.post_title}} id="post_title" />
+      </div>
+      <div class="py-2">
+        <label for="post_contents">New Info:</label>
+        <input type="text" class="form-control" placeholder={{blog.post_contents}} name="post_contents" id="post_contents" />
+      </div>
+      <button class="buttons update-btn" id="{{id}}">Update</button>
+    </form>
+  </div>
+  {{/each}}
+</div>
+</div>
+
+<script src="/js/dashboard.js"></script>

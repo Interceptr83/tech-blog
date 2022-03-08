@@ -1,0 +1,59 @@
+body {
+    background-color: grey !important;
+}
+.pageCard {
+    min-height: 100vh;
+    background-color: white;
+    padding: 0 0 5px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pageHead {
+    background-color: rgb(37, 50, 88);
+    box-shadow: 3px 3px 5px rgb(0, 0, 0);
+    border: 2px solid;
+    border-color:rgb(37, 50, 88);
+    border-radius: 5px;
+    padding: 0.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+
+nav {
+    place-content: center;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+}
+
+.buttons {
+    background-color: rgb(37, 50, 88);
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+
+}
+.buttons:hover {
+    background-color:rgb(135, 161, 240);
+}
+
+.delButton {
+    background-color: rgb(81, 5, 153);
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+.delButton:hover {
+    background-color:rgb(194, 128, 238);
+}
